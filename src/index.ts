@@ -24,3 +24,7 @@ const pri: Private = {
 log.info(pub, pri, 'This is test');
 
 export default pub;
+
+export function testA() {
+    return 1;
+}

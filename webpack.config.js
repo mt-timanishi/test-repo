@@ -10,7 +10,8 @@ module.exports = {
     extensions: ['.js', '.jsx', '.json', '.ts', '.tsx']
   },
   output: {
-    libraryTarget: 'commonjs',
+    libraryExport: "default",
+    libraryTarget: 'umd',
     path: path.join(__dirname),
     filename: '[name].js'
   },
