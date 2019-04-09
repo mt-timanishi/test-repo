@@ -23,13 +23,13 @@ const pri: Private = {
 
 log.info(pub, pri, 'This is test');
 
-// export default pub;
-//
-// export function testA() {
-//     return 1;
-// }
+export default pub;
 
-module.exports = pub;
-module.exports.testA = function () {
+export function testA() {
     return 1;
 }
+
+// module.exports = pub;
+// module.exports.testA = function () {
+//     return 1;
+// }
